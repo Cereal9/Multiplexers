@@ -17,6 +17,9 @@ A **multiplexer** is a digital circuit that selects one of multiple inputs and f
 - Implement the equation in **VHDL** (`MUX2to1_1bit.vhd`).
 - Simulate the design to verify functionality.
 
+![MUX 2to1 1 bit](file:///home/creal/Pictures/Screenshots/MUX2to1_1bitRTLviewer.png)
+
+
 ### 2. Design a 2-to-1 4-bit MUX
 - Create a new VHDL file (`MUX2to1_4bit.vhd`).
 - Instantiate **four 1-bit MUXes** and connect them properly.
@@ -36,6 +39,8 @@ A **multiplexer** is a digital circuit that selects one of multiple inputs and f
 - The **MUX2to1_1bit** and **MUX2to1_4bit** components are **simulated** to verify correct selection behavior.
 - No simulation is needed for the **DisplayControl** circuit since individual components were already tested.
 - The **FPGA is programmed**, and physical testing is done by changing switch values and pressing the **Sel** button to see the **7-segment display** update accordingly.
+
+![MUX 2to1 1 bit sim](file:///home/creal/Pictures/Screenshots/MUX2to1_1bit%20sim.png)
 
 ## Future Enhancements
 - Expand the design to a **16-bit multiplexer** by cascading four **4-bit multiplexers**.
