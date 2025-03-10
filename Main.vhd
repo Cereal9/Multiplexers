@@ -1,15 +1,15 @@
 --MUX display control
 LIBRARY IEEE;
 USE IEEE.std_logic_1164.ALL;
-Entity lab4 is
+Entity Main is
 Port(
 	A   : IN std_logic_vector(3 downto 0);
 	B   : IN std_logic_vector(3 downto 0);
 	Sel : IN std_logic;
 	DCHEX0  : OUT std_logic_vector(6 downto 0)
 );
-End lab4;
-Architecture behave OF lab4 is
+End Main;
+Architecture behave OF Main is
 --Components
 Component MUX2to1_4bit IS 
 PORT(
