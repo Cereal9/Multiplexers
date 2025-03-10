@@ -40,6 +40,7 @@ A **multiplexer** is a digital circuit that selects one of multiple inputs and f
 - No simulation is needed for the **DisplayControl** circuit since individual components were already tested.
 - The **FPGA is programmed**, and physical testing is done by changing switch values and pressing the **Sel** button to see the **7-segment display** update accordingly.
 
+![MUX 2to1 1 bit](https://github.com/Cereal9/Multiplexers/blob/main/MUX2to1_1bit%20sim.png)
 
 ## Future Enhancements
 - Expand the design to a **16-bit multiplexer** by cascading four **4-bit multiplexers**.
